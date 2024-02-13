@@ -58,11 +58,12 @@
                     <header><h2>FAC</h2></header>
                     <p> É a disciplina que mais reprova. Possui uma turma extra, devido à grande quantidade frequente de reprovados.
                         Talvez ouçam que FAC reprova mais de 75% da turma. Não é exagero. Passar direto em FAC não é fácil! Espero
-                        que minhas dicas possam ajudá-los.
+                        que minhas dicas possam ajudá-los.<br><br>
+
+                        <strong>Ah! E Atenção! Sugiro ler minhas dicas a seguir <em>enquanto</em> estiverem aprendendo e não antes</strong>
                     </p>
                     <ul>
-                        <li>
-                            <p>Sintaxe do C</p>
+                        <li><p>Sintaxe do C</p>
                             <code>#include &ltstudio.h&gt<br><br>
                                 void main(){<br>
                                     printf("Olá mundo");<br>
@@ -82,11 +83,55 @@
                                 muito útil.
                             </p>
                         </li>
-                        <li>
-                            <p>if/else</p>
-                            <code>
-
+                        <li><p>Condicionais if/else</p>
+                            <code>#include &ltstudio.h&gt<br><br>
+                                void main(){<br><br>
+                                      if(){<br>
+                                      }<br>
+                                      else{<br>
+                                      }<br>
+                                }
                             </code>
+                            <p> Umas das primeiras coisas que aprendemos em programação e é aqui que começamos a sentir a emoção
+                                de codar e ver <em>algo seu</em> funcionando.
+                            </p>
+                        </li>
+                        <li><p>Estruturas de repetição for/while/do..while</p>
+                            <code>#include &ltstudio.h&gt<br><br>
+                                void main(){<br>
+                                    int i;<br>
+                                    for(i=0;i&lt10;i++){<br>
+                                        printf("%d", i);<br>
+                                    }<br>
+                                }
+                            </code>
+                            <p> Essa aqui eu diria que é a parte mais importante! Não que as condicionais não sejam, mas as estruturas
+                                de repetição creio ser mais demorado para aprender, portanto sugiro praticar o máximo possível os 
+                                exercícios relacionados. Se pegar bem essa parte, o resto não deve ser difícil.  
+                            </p>
+                        </li>
+                        <li><p>Switch e ternário</p>
+                            <code>
+                                #include &ltstudio.h&gt<br>
+                                void main(){<br>
+                                int w;<br>
+                                float y;<br>
+                                printf("Digite a temperatura: ");<br>
+                                scanf("%f", &y);<br>
+                                printf("De Fahrenheit para Celsius digite 1.\nDe Celsius para Fahrenheit 2");<br>
+                                scanf("%d", &w);<br>
+                                <br>
+                                    switch (w){<br>
+                                    case 1:<br>
+                                        printf("%f", ((y-32)/1.8));<br>
+                                        break;<br>
+                                    case 2:<br>
+                                        printf("%f", ((y*1.8)+32));<br>
+                                        break;<br>
+                                    }
+                                }
+                            </code>
+                            <p><em></em>Acima está um código de conversão de temperatura de celsius para </p>
                         </li>
                     </ul>
                 </section>
