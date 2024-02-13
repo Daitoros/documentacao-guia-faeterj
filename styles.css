@@ -1,4 +1,4 @@
-nav{    /*Fixando o menu à esquerda*/
+nav{    /*Fixando o menu à esquerda. É aqui que limito o tamanho do menu*/
     position: fixed;
     left: 0;
 }
@@ -18,22 +18,21 @@ nav ul li a {   /*Elementos visuais dos botões*/
     justify-content: center;
     margin-bottom: 30px;
 } 
-#navbar ul {    /*Faz a barra deslizar*/
-    height: 100%;
-    padding: 0;
+#navbar ul {    
+    height: 100%;   /*Faz a lista virar uma barra deslizável*/
+    padding: 0;     /*Remove os pontos de marcação da lista*/
     overflow-y: auto;
-    overflow-x: hidden;
+    overflow-x: hidden; /* esconde o que se sobrepõe no eixo x*/
 }
 /*Acima são os elementos do menu ^^*/
 
 section{
     display: block;
 }
-#main-doc {     /*Leva o documento principal para o meio para posicioná-lo*/
+#sections {     /*Leva o documento principal para o meio para posicioná-lo*/
     position: absolute;
-    margin-left: 294px;
+    margin: -10px auto 110px 292px;
     padding: 20px;
-    margin-bottom: 110px;
     border-left: 2px solid #E2144A;
 }
  /* ul {        Removendo pois não sei oq faz
@@ -45,3 +44,24 @@ section{
     margin-inline-end: 0px;
     padding-inline-start: 40px;
 } */
+
+/*Media querie*/
+@media (max-width: 850px){
+    nav{
+        left:auto;
+        top: 0;
+        margin-left: -9px;
+        height: 255px;
+        position: relative;
+        margin-right: -6px;
+    }
+    nav ul{
+        width: 100%;
+        border: 1px solid #E2144A;
+    }
+    #sections{
+        margin-left: 0;
+        margin-top: 50px;
+        border-left: none;
+    }
+}
