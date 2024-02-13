@@ -1,0 +1,47 @@
+nav{
+    width: 50%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+}
+ nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 300px;
+    height: 100%;
+    }
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #E2144A;
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+ } */
+ 
+ ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+#navbar ul {    /*Faz a barra deslizar*/
+    height: 100%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+section{
+    display: block;
+}
+#main-doc {     /*Leva o documento principal para o meio para posicioná-lo*/
+    position: absolute;
+    margin-left: 310px;
+    padding: 20px;
+    margin-bottom: 110px;
+}
