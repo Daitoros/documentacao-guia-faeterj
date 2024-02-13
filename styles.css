@@ -1,6 +1,4 @@
 nav{
-    width: 50%;
-    height: 50px;
     position: fixed;
     left: 0;
 }
@@ -9,18 +7,17 @@ nav{
     padding: 0;
     list-style: none;
     width: 300px;
-    height: 100%;
     }
-nav ul li a {
+nav ul li a {   /*Elementos visuais dos botões*/
     display: block;
     text-decoration: none;
     color: #E2144A;
     background: #fff;
-    padding: 5px;
+    padding: 20px;
     border: 1px solid #ccc;
- } */
- 
- ul {
+ } 
+
+ /* ul {        Removendo pois não sei oq faz
     display: block;
     list-style-type: disc;
     margin-block-start: 1em;
@@ -28,7 +25,7 @@ nav ul li a {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
     padding-inline-start: 40px;
-}
+} */
 
 #navbar ul {    /*Faz a barra deslizar*/
     height: 100%;
@@ -41,7 +38,13 @@ section{
 }
 #main-doc {     /*Leva o documento principal para o meio para posicioná-lo*/
     position: absolute;
-    margin-left: 310px;
+    margin-left: 294px;
     padding: 20px;
     margin-bottom: 110px;
+    border-left: 2px solid #E2144A;
+}
+#navbar header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
 }
