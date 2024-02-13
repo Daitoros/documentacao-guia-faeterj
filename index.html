@@ -17,7 +17,7 @@
                     <li><a href="#atletica" class="nav-link">Atlética</a></li>
                     <li><a href="#professores" class="nav-link">Professores</a></li>
                     <li><a href="#disciplinas" class="nav-link">Disciplinas</a></li>
-                    <li><a href="#fac" class="nav-link">FAC</a></li>
+                    <li><a href="#dicas_fac" class="nav-link">Dicas FAC</a></li>
                 </ul>
             </nav>
             <div id="sections">
@@ -40,8 +40,11 @@
                 </section>
                 <section id="campus" class="main-section">
                     <header><h2>Campus</h2></header>
-                    <p>Quebra-cabeça</p>
-                    <p>Lago</p>
+                    <ul>
+                        <li>
+                            <p>Quebra-cabeça</p>
+                        </li>
+                    </ul>
                 </section>
                 <section id="atletica" class="main-section">
                     <header><h2>Atlética</h2></header>
@@ -53,9 +56,15 @@
                 </section>
                 <section id="disciplinas" class="main-section">
                     <header><h2>Disciplinas</h2></header>
+                    <ul>
+                        <li><p>LPO, IHM, IAS</p>
+                            <p>São matérias mais voltadas para trabalhos. Entregando todos e tendo o mínimo de presença, você passa.</p>
+                        </li>
+                        <li></li>
+                    </ul>
                 </section>
-                <section id="fac" class="main-section">
-                    <header><h2>FAC</h2></header>
+                <section id="dicas_fac" class="main-section">
+                    <header><h2>Dicas FAC</h2></header>
                     <p> É a disciplina que mais reprova. Possui uma turma extra, devido à grande quantidade frequente de reprovados.
                         Talvez ouçam que FAC reprova mais de 75% da turma. Não é exagero. Passar direto em FAC não é fácil! Espero
                         que minhas dicas possam ajudá-los.<br><br>
@@ -96,20 +105,6 @@
                                 de codar e ver <em>algo seu</em> funcionando.
                             </p>
                         </li>
-                        <li><p>Estruturas de repetição for/while/do..while</p>
-                            <code>#include &ltstudio.h&gt<br><br>
-                                void main(){<br>
-                                    int i;<br>
-                                    for(i=0;i&lt10;i++){<br>
-                                        printf("%d", i);<br>
-                                    }<br>
-                                }
-                            </code>
-                            <p> Essa aqui eu diria que é a parte mais importante! Não que as condicionais não sejam, mas as estruturas
-                                de repetição creio ser mais demorado para aprender, portanto sugiro praticar o máximo possível os 
-                                exercícios relacionados. Se pegar bem essa parte, o resto não deve ser difícil.  
-                            </p>
-                        </li>
                         <li><p>Switch e ternário</p>
                             <code>
                                 #include &ltstudio.h&gt<br>
@@ -131,7 +126,36 @@
                                     }
                                 }
                             </code>
-                            <p><em></em>Acima está um código de conversão de temperatura de celsius para </p>
+                            <p><em> Acima está um código de conversão de temperatura de celsius para fahrenheit e vice-versa.<br>
+                                    Abaixo, um exemplo do uso de ternário</em></p>
+                            <code>
+                                int a = 10, b = 20, c;<br>
+                                c = (a &lt b) ? a : b;<br>
+                                printf("%d", c);
+                            </code>
+                            <p>Como você deve estar aprendendo, com quer quer que seja seu professor, o ternário e o switch são
+                                alternativas mais compactas ao if/else. Vale considerar o uso deles sempre que possível.
+                            </p>
+                        </li>
+                        <li><p>Estruturas de repetição for/while/do..while</p>
+                            <code>#include &ltstudio.h&gt<br><br>
+                                void main(){<br>
+                                    int i;<br>
+                                    for(i=0;i&lt10;i++){<br>
+                                        printf("%d", i);<br>
+                                    }<br>
+                                }
+                            </code>
+                            <p> Essa aqui eu diria que é a parte mais importante! Não que as condicionais não sejam, mas as estruturas
+                                de repetição creio ser mais demorado para aprender, portanto sugiro praticar o máximo possível os 
+                                exercícios relacionados. Se pegar bem essa parte, o resto não deve ser difícil.  
+                            </p>
+                        </li>
+                        <li><p>Funções e ponteiros</p>
+                            <p> Esse aqui, uns dirão ser a parte mais difícil de FAC, outros a mais fácil. Eu fico com o segundo ponto 
+                                de vista. Creio que, a dificuldade aqui se encontra no fato de somar tudo o que já foi visto até o
+                                momento. E, bom, se você não praticou as estruturas de repetição o suficiente...
+                            </p>
                         </li>
                     </ul>
                 </section>
