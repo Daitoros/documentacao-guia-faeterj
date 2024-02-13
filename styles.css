@@ -1,11 +1,8 @@
-nav{
+nav{    /*Fixando o menu à esquerda*/
     position: fixed;
     left: 0;
 }
- nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+ nav ul { /*Largura dos botões*/
     width: 300px;
     }
 nav ul li a {   /*Elementos visuais dos botões*/
@@ -15,24 +12,20 @@ nav ul li a {   /*Elementos visuais dos botões*/
     background: #fff;
     padding: 20px;
     border: 1px solid #ccc;
- } 
-
- /* ul {        Removendo pois não sei oq faz
-    display: block;
-    list-style-type: disc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
-} */
-
+ }
+#navbar header{ /*Centralizando o header do menu*/
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+} 
 #navbar ul {    /*Faz a barra deslizar*/
     height: 100%;
     padding: 0;
     overflow-y: auto;
     overflow-x: hidden;
 }
+/*Acima são os elementos do menu ^^*/
+
 section{
     display: block;
 }
@@ -43,8 +36,12 @@ section{
     margin-bottom: 110px;
     border-left: 2px solid #E2144A;
 }
-#navbar header{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
+ /* ul {        Removendo pois não sei oq faz
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+} */
