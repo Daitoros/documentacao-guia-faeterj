@@ -13,10 +13,9 @@ nav ul li a {   /*Elementos visuais dos botões*/
     padding: 20px;
     border: 1px solid #ccc;
  }
-#navbar header{ /*Centralizando o header do menu*/
+#navbar header p{ /*Centralizando o header do menu*/
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
 } 
 #navbar ul {    
     height: 100%;   /*Faz a lista virar uma barra deslizável*/
@@ -24,8 +23,19 @@ nav ul li a {   /*Elementos visuais dos botões*/
     overflow-y: auto;
     overflow-x: hidden; /* esconde o que se sobrepõe no eixo x*/
 }
+#logo{
+    max-width: 20px;
+    margin: auto;
+}
 /*Acima são os elementos do menu ^^*/
-
+figure{
+    height: auto;
+    max-width: 550px;
+}
+img{
+    width:100%;
+    border-radius: 10%;
+}
 section{
     display: block;
 }
@@ -47,6 +57,9 @@ section{
 
 /*Media querie*/
 @media (max-width: 850px){
+    #navbar header{
+        width: 100%;
+    }
     nav{
         left:auto;
         top: 0;
@@ -64,4 +77,5 @@ section{
         margin-top: 50px;
         border-left: none;
     }
+    
 }
