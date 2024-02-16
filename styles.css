@@ -18,10 +18,10 @@ nav header a:active{
     color:#0693e3;
 }
 
-
 nav{    /*Fixando o menu à esquerda. É aqui que limito o tamanho do menu*/
     position: fixed;
     left: 0;
+    height: 90%;
 }
  nav ul { /*Largura dos botões*/
     width: 300px;
@@ -77,6 +77,9 @@ section{
     margin: -10px auto 110px 291px;
     padding: 20px;
     border-left: 2px solid #0693e3;
+}
+#sections li p:first-of-type{
+    font-weight: bold;
 }
  /* ul {        Removendo pois não sei oq faz
     display: block;
