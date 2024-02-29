@@ -83,6 +83,9 @@ section{
 #sections li p:first-of-type{
     font-weight: bold;
 }
+#dicas_entrevistados li{
+    margin-bottom: 20px;
+}
 .main-section{
     margin-bottom: 50px;
 }
