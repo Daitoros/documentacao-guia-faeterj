@@ -25,7 +25,7 @@ nav{    /*Fixando o menu à esquerda. É aqui que limito o tamanho do menu*/
 }
  nav ul { /*Largura dos botões*/
     width: 300px;
-    }
+}
 nav ul li a {   /*Elementos visuais dos botões*/
     display: block;
     text-decoration: none;
@@ -33,13 +33,13 @@ nav ul li a {   /*Elementos visuais dos botões*/
     background: #fff;
     padding: 20px;
     border: 1px solid #0693e3;
- }
+}
  nav ul li:first-of-type a { /*estilizando as bordas*/
     border-top: 2px solid #0693e3;
- }
+}
  nav ul li:last-of-type a { /*estilizando as bordas*/
     border-bottom: 2px solid #0693e3;
- }
+}
 nav ul li a p{ /*Centralizando os elementos dos botoes*/
     margin: auto;
     text-align: center;
@@ -47,6 +47,7 @@ nav ul li a p{ /*Centralizando os elementos dos botoes*/
 #navbar header p{ /*Centralizando o header do menu*/
     display: flex;
     justify-content: center;
+    vertical-align: baseline;
 } 
 #navbar ul {    
     height: 100%;   /*Faz a lista virar uma barra deslizável*/
@@ -67,10 +68,11 @@ figure{
 }
 img{
     width:100%;
-    border-radius: 10%;
+    border-radius: 5%;
 }
 section{
     display: block;
+    margin-top: -15px;
 }
 #sections {     /*Leva o documento principal para o meio para posicioná-lo*/
     position: absolute;
@@ -80,6 +82,9 @@ section{
 }
 #sections li p:first-of-type{
     font-weight: bold;
+}
+.main-section{
+    margin-bottom: 50px;
 }
  /* ul {        Removendo pois não sei oq faz
     display: block;
@@ -118,7 +123,7 @@ section{
     }
     #sections{
         margin-left: 0;
-        margin-top: 50px;
+        margin-top: 10px;
         border-left: none;
     }
     nav ul li:first-of-type a{
