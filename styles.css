@@ -1,5 +1,6 @@
 html{
     font-family: "Open Sans",sans-serif;
+    scroll-behavior: smooth;
 }
 
 /*Mexendo no link do título*/
@@ -85,6 +86,9 @@ section{
 }
 #dicas_entrevistados li{
     margin-bottom: 20px;
+}
+#pesquisa_entrevistados > div{
+    max-width: 100vh;
 }
 .main-section{
     margin-bottom: 50px;
